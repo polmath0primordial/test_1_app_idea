@@ -104,12 +104,16 @@ An app/website that:
   - **Styling**: Tailwind CSS
   - **Backend/Database**: Supabase (PostgreSQL + built-in auth, realtime, storage)
   - **Hosting**: Vercel (free tier, auto-deploy from GitHub, built for Next.js)
+- **AI Provider**: Multi-model (Claude family, single API)
+  - **Claude Sonnet**: Roadmap/dependency graph generation, assessment quiz creation (needs strong reasoning)
+  - **Claude Haiku**: Topic overviews, study tips, resource ranking/scoring (fast & cheap for lighter tasks)
+  - Can swap in other providers (GPT-4o-mini, Gemini Flash) for light tasks if pricing shifts
 - **Name**: TBD
 
 ## Open Questions (To Be Decided)
 - [x] Business model: Freemium + Affiliate Hybrid
 - [x] Tech stack: Next.js + Supabase + Vercel
-- [ ] AI provider for roadmap generation
+- [x] AI provider for roadmap generation: Multi-provider (Claude family)
 - [x] How to source and maintain quality resource recommendations: Phased approach (see below)
 - [ ] App name
 
