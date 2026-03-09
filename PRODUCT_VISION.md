@@ -1,4 +1,4 @@
-# Product Vision: Learning Roadmap Platform
+# Product Vision: Pathwise — Learning Roadmap Platform
 
 ## One-Line Description
 A learning platform that creates structured, dependency-aware study roadmaps using original resources — not AI-rewritten content.
@@ -108,14 +108,14 @@ An app/website that:
   - **Claude Sonnet**: Roadmap/dependency graph generation, assessment quiz creation (needs strong reasoning)
   - **Claude Haiku**: Topic overviews, study tips, resource ranking/scoring (fast & cheap for lighter tasks)
   - Can swap in other providers (GPT-4o-mini, Gemini Flash) for light tasks if pricing shifts
-- **Name**: TBD
+- **Name**: Pathwise
 
 ## Open Questions (To Be Decided)
 - [x] Business model: Freemium + Affiliate Hybrid
 - [x] Tech stack: Next.js + Supabase + Vercel
 - [x] AI provider for roadmap generation: Multi-provider (Claude family)
 - [x] How to source and maintain quality resource recommendations: Phased approach (see below)
-- [ ] App name
+- [x] App name: Pathwise
 
 ---
 
