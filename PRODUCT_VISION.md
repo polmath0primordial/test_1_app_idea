@@ -98,11 +98,17 @@ An app/website that:
   - **Phase 2 (Growth)**: Layer on community features — users can rate/review resources, submit new ones, and flag broken/outdated links. Community feedback helps surface the best content and catch stale resources
   - **Quality signals**: Platform reputation, author credentials, user ratings, recency, engagement metrics
   - **Maintenance**: Automated link-checking for broken URLs, periodic re-ranking based on community feedback, flagging system for outdated content
+- **Tech Stack**:
+  - **Frontend**: Next.js (React) — largest ecosystem, best graph visualization support, great SEO
+  - **Graph Visualization**: React Flow — purpose-built for node-based dependency graphs
+  - **Styling**: Tailwind CSS
+  - **Backend/Database**: Supabase (PostgreSQL + built-in auth, realtime, storage)
+  - **Hosting**: Vercel (free tier, auto-deploy from GitHub, built for Next.js)
 - **Name**: TBD
 
 ## Open Questions (To Be Decided)
 - [x] Business model: Freemium + Affiliate Hybrid
-- [ ] Tech stack
+- [x] Tech stack: Next.js + Supabase + Vercel
 - [ ] AI provider for roadmap generation
 - [x] How to source and maintain quality resource recommendations: Phased approach (see below)
 - [ ] App name
