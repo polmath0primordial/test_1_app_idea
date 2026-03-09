@@ -93,13 +93,18 @@ An app/website that:
   - **Free tier**: Full roadmaps for all topics, basic resource recommendations, self-guided mode
   - **Paid tier** ($5-10/month): Structured study plans, progress tracking & analytics, AI study tips, note-taking, streaks
   - **Affiliate revenue**: Affiliate links on resource recommendations (books, courses, tools) for all users
+- **Resource Curation Strategy**: Phased approach
+  - **Phase 1 (Launch)**: AI-Assisted + Human Review — AI aggregates top resources from trusted platforms (YouTube, Coursera, MIT OCW, GitHub, freeCodeCamp, Khan Academy, etc.), ranks by quality signals (views, ratings, recency), and a human does final approval before anything goes live
+  - **Phase 2 (Growth)**: Layer on community features — users can rate/review resources, submit new ones, and flag broken/outdated links. Community feedback helps surface the best content and catch stale resources
+  - **Quality signals**: Platform reputation, author credentials, user ratings, recency, engagement metrics
+  - **Maintenance**: Automated link-checking for broken URLs, periodic re-ranking based on community feedback, flagging system for outdated content
 - **Name**: TBD
 
 ## Open Questions (To Be Decided)
 - [x] Business model: Freemium + Affiliate Hybrid
 - [ ] Tech stack
 - [ ] AI provider for roadmap generation
-- [ ] How to source and maintain quality resource recommendations
+- [x] How to source and maintain quality resource recommendations: Phased approach (see below)
 - [ ] App name
 
 ---
