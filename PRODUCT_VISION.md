@@ -89,10 +89,14 @@ An app/website that:
 - **Platform**: Web app first (responsive), mobile app later
 - **Launch Topics**: Programming/CS, Psychology, Finance/Business
 - **Content Approach**: Curator + AI Guide — Links to real resources + AI provides topic overviews, study tips, and "what to focus on" guidance. AI never replaces the actual learning material.
+- **Business Model**: Freemium + Affiliate Hybrid
+  - **Free tier**: Full roadmaps for all topics, basic resource recommendations, self-guided mode
+  - **Paid tier** ($5-10/month): Structured study plans, progress tracking & analytics, AI study tips, note-taking, streaks
+  - **Affiliate revenue**: Affiliate links on resource recommendations (books, courses, tools) for all users
 - **Name**: TBD
 
 ## Open Questions (To Be Decided)
-- [ ] Business model: Freemium, fully free, affiliate-based?
+- [x] Business model: Freemium + Affiliate Hybrid
 - [ ] Tech stack
 - [ ] AI provider for roadmap generation
 - [ ] How to source and maintain quality resource recommendations
